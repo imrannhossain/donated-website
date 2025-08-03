@@ -4,16 +4,17 @@
 }
 
 
+/* header section style */
 
 .header {
     background:
-    linear-gradient(0deg, rgba(18, 18, 18, 1), rgba(18, 18, 18, 0) 100%),
-    url(../images/donation1.jpg);
+        linear-gradient(0deg, rgba(18, 18, 18, 1), rgba(18, 18, 18, 0) 100%),
+        url(../images/donation1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 699px;
+   height:100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,30 +22,83 @@
     gap: 20px;
 }
 
-.header-title{
-color: rgb(255, 255, 255);
-font-size: 3rem;
-text-align: center;
-font-weight: 700;
-line-height: 50px;
+.header-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: normal;
 }
-.header-des{
-color: rgb(255, 255, 255);
-font-size: 1.5rem;
-opacity: 0.7;
-font-weight: 400;
-text-align: center;
+
+.header-des {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    opacity: 0.7;
+    font-weight: 400;
+    text-align: center;
 }
-.donate-btn{
-border-radius: 5px;
-background: rgb(255, 89, 89);
-width: 160px;
-height: 56px;
-text-align: center;
-align-items: center;
-color: rgb(255, 255, 255);
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
-cursor:pointer ;
+
+.donate-btn {
+    border-radius: 5px;
+    background: rgb(255, 89, 89);
+    width: 160px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* small devices */
+
+@media screen and (max-width:576px) {
+    .header {
+    height: 100svh;
+}
+    .header-title{
+        font-size: 2rem;
+    }
+    .header-des{
+        font-size: 0.8rem;
+    }
+
+    .donate-btn {
+        margin-top: 30px;
+        height: 50px;
+    }
+}
+
+
+/* medium devices */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    
+}
+
+
+
+/* large devices */
+
+@media screen and (min-width: 993px){
+
+
+
+
+
+
+
+    
 }
