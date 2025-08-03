@@ -418,42 +418,65 @@ button {
 
     }
 
+    .donate-p-img {
+        flex-direction: column;
+        gap: 20px;
+    }
+
     .img-1,
     .img-2,
     .img-3 {
-        width: 500px;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+
     }
 
-    .img-3 {
-        margin-right: 20px;
+    .donate-p-text {
+        font-size: 2rem;
+        line-height: 40px;
     }
+
+    .donate-p-des {
+        font-size: 0.9rem;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+
+
+
+    .donation-1,
+    .donation-2 {
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .donation {
+        padding: 20px;
+         
+    }
+
+    .donation-img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
     
+    }
 
-
-.donation-1,
-  .donation-2 {
-    flex-direction: column;
-    padding: 20px;
-    gap: 30px;
-    text-align: center;
-  }
-
-  .donation {
-    padding: 20px; 
-  }
-
-  .donation-img {
-    width: 100%;  
-    height: auto;
-    margin: 0 auto;
-    border-radius: 10px;
-  }
-
-  .donation h3,
-  .donation p,
-  .donation button {
-    margin-left: 0; 
-  }
+    .donation h3,
+    .donation p,
+    .donation button {
+        display: flex;
+        margin-left: 0;
+      
+ 
+    }
 
 
 
@@ -490,30 +513,31 @@ button {
     .img-3 {
         margin-right: 20px;
     }
+
     .donation-1,
-  .donation-2 {
-    flex-direction: column;
-    padding: 20px;
-    gap: 30px;
-    text-align: center;
-  }
+    .donation-2 {
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+        text-align: center;
+    }
 
-  .donation {
-    padding: 20px; 
-  }
+    .donation {
+        padding: 20px;
+    }
 
-  .donation-img {
-    width: 100%;  
-    height: auto;
-    margin: 0 auto;
-    border-radius: 10px;
-  }
+    .donation-img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
 
-  .donation h3,
-  .donation p,
-  .donation button {
-    margin-left: 0; 
-  }
+    .donation h3,
+    .donation p,
+    .donation button {
+        margin-left: 0;
+    }
 
 }
 
