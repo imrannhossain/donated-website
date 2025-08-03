@@ -236,7 +236,6 @@
     justify-items: center;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
 .img-1 {
@@ -300,7 +299,7 @@
     font-weight: 600;
     line-height: 36px;
     text-align: left;
-    margin: 0 2px;
+
 }
 
 .donate-p-img p {
@@ -355,6 +354,27 @@
         width: 200px;
     }
 
+    .donate-p-img {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        margin-left: 20px;
+
+    }
+
+    .img-1,
+    .img-2,
+    .img-3 {
+        width: 500px;
+    }
+
+    .img-3 {
+        margin-right: 20px;
+    }
+
+
+
+
 
 }
 
@@ -370,6 +390,23 @@
 
     .hr-container hr {
         width: 400px;
+    }
+      .donate-p-img {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        margin-left: 20px;
+
+    }
+
+    .img-1,
+    .img-2,
+    .img-3 {
+        width: 500px;
+    }
+
+    .img-3 {
+        margin-right: 20px;
     }
 
 }
