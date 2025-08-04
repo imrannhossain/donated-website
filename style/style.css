@@ -65,7 +65,6 @@
 }
 
 .donate-title {
-    color: rgb(18, 18, 18);
     font-size: 2.8rem;
     font-weight: 700;
     line-height: 50px;
@@ -141,7 +140,6 @@
 
 .hr-text {
     color: rgb(179, 179, 179);
-    font-family: Poppins;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -320,6 +318,7 @@
 
 /* footer style */
 .footer {
+    margin-top: 80px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -441,6 +440,20 @@ text-align: center;
     .donation button {
         margin-left: 0;
     }
+
+        .gmail{
+            width: 100%;
+
+        }
+        .gmail input{
+            width: 50%;
+        }
+        .gmail button{
+            width: 30%;
+            margin-bottom: 20px;
+
+        }
+
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -490,9 +503,15 @@ text-align: center;
         border-radius: 10px;
     }
 
-    .donation h3,
-    .donation p,
-    .donation button {
-        margin-left: 0;
-    }
+      .gmail{
+            width: 100%;
+
+        }
+        .gmail input{
+            width: 50%;
+        }
+        .gmail button{
+            width: 30%;
+        }
+
 }
